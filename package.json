@@ -1,0 +1,49 @@
+{
+  "name": "toool",
+  "version": "0.1.1",
+  "description": "tools of javascript.",
+  "main": "dist/toool.cjs.js",
+  "module": "dist/toool.esm.js",
+  "browser": "dist/toool.umd.js",
+  "files": [
+    "dist/",
+    "toool.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "dev" : "rollup -c -w"
+  },
+  "keywords": [
+    "tools",
+    "javascript",
+    "function",
+    "extends"
+  ],
+  "author": "Sv Wang",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-typescript": "^7.23.3",
+    "@jest/globals": "^29.7.0",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "rollup": "^4.13.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "ts-jest": "^29.1.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "alaco": "^0.0.4"
+  }
+}

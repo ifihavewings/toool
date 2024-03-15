@@ -1,0 +1,1 @@
+JavaScript 的一些工具函数
